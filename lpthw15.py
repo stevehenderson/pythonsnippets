@@ -1,4 +1,5 @@
 # Learning Python the Hard Way L15
+# 
 from sys import argv
 
 script, filename = argv

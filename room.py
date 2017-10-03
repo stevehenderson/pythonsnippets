@@ -2,7 +2,7 @@ def kitchen():
 	print "Welcome to the kicthen!"
 	print "What would you like to do next?"
 	print "1=Go to the living room"
-	print "2=Go to the grage"
+	print "2=Go to the garage"
 	
 	cmd = input("Enter you choice:")
 	if(cmd)==2:
@@ -20,7 +20,7 @@ def garage():
 	
 	cmd = input("Enter you choice:")
 	if (cmd==2):
-		print "Varoooom!  That was fun."
+		print "Varoooom!  That was fun.\n\n"
 		garage()
 	elif (cmd==1):
 		kitchen()
